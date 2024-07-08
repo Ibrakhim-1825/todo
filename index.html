@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style type="text/tailwindcss">
+    @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+
+<body class="bg-blue-300">
+  <form class="form bg-white p-5 rounded-[10px] w-[500px] mx-auto mt-[100px]">
+    <div class="flex flex-col gap-5">
+      <span class="text-[25px] font-semibold ">Enter your todo</span>
+      <div class="w-full flex items-center justify-between">
+        <input
+          class="input w-[69%] p-2 border-[1px] border-slate-500 rounded-lg outline-none focus:shadow-lg focus:shadow-blue-500"
+          type=" text" placeholder="enter your todo">
+        <button
+          class="w-[29%]  p-2.5  border-[1px] border-slate-500 rounded-lg bg-blue-500 font-bold text-white text-[18px]">submit</button>
+      </div>
+    </div>
+
+  </form>
+  <div class="w-[500px] mt-5 mx-auto bg-white rounded-lg p-5 flex justify-between gap-2">
+    <button class="bg-blue-500 hover: opacity-100 duration-300 p-3 rounded-lg w-[30%] text-white">All  (<span class="All-count">0</span>) </button>
+    <button class="bg-blue-500 hover: opacity-100 duration-300 p-3 rounded-lg w-[30%] text-white">Complated (<span class="Complated-count">0</span>) </button>
+    <button class="bg-blue-500 hover: opacity-100 duration-300 p-3 rounded-lg w-[30%] text-white">Uncomplated (<span class="Uncomplated-count">0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </span>) </button>
+  </div>
+  <ul class="list w-[500px] mt-5 mx-auto bg-white rounded-lg p-5 gap-3">
+    <li class="flex items-center justify-between">
+  </ul>
+
+
+  <script src="./js/main.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>

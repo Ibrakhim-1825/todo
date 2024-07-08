@@ -1,0 +1,6 @@
+::-webkit-scrollbar{
+    display: none;
+}
+.list{
+    gap: 8px;
+}
